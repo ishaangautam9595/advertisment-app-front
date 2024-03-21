@@ -1,0 +1,138 @@
+.container {
+  max-width: 1400px;
+  padding-inline: 50px;
+  margin: 0 auto;
+}
+
+.cityInput {
+width: 100%;
+padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  display: inherit;
+}
+
+.MenuImage {
+  height: 190px !important;
+}
+
+.authActionSection {
+  padding-block: 40px 150px;
+  /* background: url("../images/loginbg.svg"); */
+  background-size: cover;
+}
+.formCard {
+  max-width: 615px;
+  background-color: #f9f9fa;
+  margin-inline: auto;
+  padding: 50px 100px;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+.cardHead {
+  margin-bottom: 40px;
+}
+.cardHead h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-block: 0 15px;
+}
+.cardHead p {
+  font-size: 20px;
+  margin: 0;
+  color: var(--lite-text);
+}
+@media (max-width: 767px) {
+  .cardHead h2 {
+    font-size: 30px;
+  }
+  .cardHead p {
+    font-size: 18px;
+  }
+  .authActionSection {
+    padding-bottom: 65px;
+  }
+}
+@media (max-width: 575px) {
+  .authActionSection {
+    /* background-image: url("../images/authBackMob.svg"); */
+  }
+  .formCard {
+    padding: 48px 40px;
+    margin-top: 60px;
+  }
+  .textLink {
+    display: block;
+  }
+}
+@media (max-width: 410px) {
+  .formCard {
+    padding: 30px 15px;
+  }
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-dropdown-menu {
+  max-height: 300px;
+  overflow: auto;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #1b1818 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1b1818;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+:where(.css-dev-only-do-not-override-nnuwmp).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  width: 100%;
+  height: 42px;
+  padding: 4px 10px;
+}
+
+.ant-radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label.ant-radio-wrapper.css-dev-only-do-not-override-nnuwmp {
+  padding-top: 10px;
+}
+
+.radio-checkbox {
+  display: inline-flex;
+  align-items: left;
+  cursor: pointer;
+}
+
+.radio-checkbox .ant-radio-inner {
+  border-radius: 4px;
+}
+
+.radio-checkbox .ant-radio-inner::after {
+  border-radius: 2px;
+}
